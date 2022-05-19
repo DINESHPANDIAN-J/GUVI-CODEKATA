@@ -1,0 +1,4 @@
+n=int(input())
+l=list(map(int,input().split()))
+if n==len(l):
+  print(max(l))
