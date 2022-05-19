@@ -1,0 +1,5 @@
+n=int(input())
+l=list(map(int,input().split()))
+if n==len(l):
+  ans=l.index(max(l))-l.index(min(l))
+print(ans)
