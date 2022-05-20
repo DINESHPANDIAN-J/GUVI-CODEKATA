@@ -1,0 +1,6 @@
+n=int(input())
+i=n
+while i>0:
+  print(str(n)*i)
+  i-=1
+  n-=1
