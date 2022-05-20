@@ -1,0 +1,5 @@
+n=int(input())
+l=list("*"*n)
+for i in range(n):
+  l[:i]=" "*i
+  print("".join(l))
